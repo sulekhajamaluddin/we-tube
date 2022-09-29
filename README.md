@@ -3,9 +3,9 @@
 This is a React project that has some video search and play functionalities.
 It has three pages:
 
-1 The Home page
-2 The Playback page
-3 The SearchResults page
+1 The Home page\
+2 The Playback page\
+3 The SearchResults page\
 
 ## The Home Page
 
