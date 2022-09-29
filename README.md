@@ -40,6 +40,10 @@ that has the searchword in their title are displayed.
 
 Git clone/download the project code from [https://github.com/sulekhajamaluddin/we-tube](https://github.com/sulekhajamaluddin/we-tube)
 
+### `npm install` 
+
+Installs all the npm packages required for the project to work.
+
 ## Available Scripts
 
 In the project directory, you can run:
