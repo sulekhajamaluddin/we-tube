@@ -188,9 +188,8 @@
 }
 
 .side-video-list_thumbnail:hover {
-    cursor: pointer;
-  }
-
+  cursor: pointer;
+}
 
 .side-video-list_details {
   margin-left: 0.5em;
@@ -207,5 +206,5 @@
   justify-content: flex-start;
   margin-top: 0.5em;
   font-size: 0.7rem;
-  color:  rgb(96 96 96) ;
+  color: rgb(96 96 96);
 }

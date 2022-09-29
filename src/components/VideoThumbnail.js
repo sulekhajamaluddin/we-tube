@@ -4,14 +4,14 @@ const VideoThumbnail = ({ video }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/videoplayer", { state: { id: `${video.videoId}`} });
+    navigate("/videoplayer", { state: { id: `${video.videoId}` } });
   };
   return (
     <div className="video-thumbnail">
       <img
         src={`../videos/${video.videoThumbnail}`}
         alt="video thumbnail"
-        style={{height:'auto', width:'100%', objectFit: 'contain'}}
+        style={{ height: "auto", width: "100%", objectFit: "contain" }}
         onClick={() => handleClick()}
       />
       <div className="video-thumbnail-details">
@@ -24,9 +24,13 @@ const VideoThumbnail = ({ video }) => {
         />
         <div className="video-thumbnail-details_name">
           {video.videoName}
-          <span className="video-thumbnail-details_channel-views">{video.channelName}</span>
-          <span className="video-thumbnail-details_channel-views">{video.views} views</span>
-          </div>
+          <span className="video-thumbnail-details_channel-views">
+            {video.channelName}
+          </span>
+          <span className="video-thumbnail-details_channel-views">
+            {video.views} views
+          </span>
+        </div>
       </div>
     </div>
   );

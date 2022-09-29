@@ -5,4 +5,11 @@ import VideoPlayer from "./VideoPlayer";
 import SearchBar from "./SearchBar";
 import SearchResults from "./SearchResults";
 
-export {MenuBar, SideBar, VideosContainer, VideoPlayer, SearchBar, SearchResults}
+export {
+  MenuBar,
+  SideBar,
+  VideosContainer,
+  VideoPlayer,
+  SearchBar,
+  SearchResults,
+};

@@ -8,8 +8,13 @@ const VideoPlayer = () => {
 
   return (
     <div className="video-container top-align">
-      <ReactPlayer width={900} height={600} style={{marginTop:'1.5em'}} url={`${location.state.id}`} />
-      <SideVideoList videos={Videos}/>
+      <ReactPlayer
+        width={900}
+        height={600}
+        style={{ marginTop: "1.5em" }}
+        url={`${location.state.id}`}
+      />
+      <SideVideoList videos={Videos} />
     </div>
   );
 };
