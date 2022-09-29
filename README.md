@@ -13,7 +13,7 @@ The Home Page has a menu bar at the top with a search bar, a sidebar with some l
 the center.
 When you click on a video, it takes you to the playback page.
 
-![Home Page](images/HomePage.png?raw=true "Home Page")
+![Home Page](images/HomePageView.png?raw=true "Home Page")
 
 
 ## The PlayBack Page
